@@ -112,7 +112,7 @@ function validateUrl(){
 }
 
 function validateName(){
-    var regix = /^[A-Za-z\s\-]{2,50}$/
+    var regix = /^[A-Za-z\s\-]{3,50}$/
 
     var text = siteName.value;
 
