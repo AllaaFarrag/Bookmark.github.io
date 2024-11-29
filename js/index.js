@@ -147,6 +147,7 @@ function showModal() {
   
   
   closeModel.addEventListener('click',closeModal)
+
   errorModal.addEventListener('click',function(e){
     if(e.target === errorModal){
         closeModal() 
@@ -155,7 +156,7 @@ function showModal() {
   })
 
   document.addEventListener('keydown', function (e) {
-    if (e.key === 'Escape' || e.keyCode === 27) {
+    if (e.key === 'Escape') {
         closeModal();
     }
 });
